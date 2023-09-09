@@ -2,6 +2,7 @@ body{color: #9F968A;
 font-size: 16px;
 font-family: sans-serif;
 }
+/*Navbar */ 
 nav ul{
   float: right;
 }
@@ -36,6 +37,15 @@ nav ul li ul li a{
 nav ul li ul li a:hover{
   background-color: #46527a;
 }
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background:#151D28;
+}
+/*Main CSS*/ 
 
 .is-current{color: #4FFFE7;}
  header li a:hover{
@@ -47,6 +57,7 @@ img.logo {
   margin-right: auto;
   width: auto;
 }
+/*Introduction code CSS*/
 
 .introduction{
   display: flex;
@@ -63,6 +74,7 @@ img.logo {
 .introduction-paragraph{
   margin: 10px;
 }
+/*Card CSS*/
 .services{
   display: flex;
 }
@@ -99,6 +111,7 @@ img.logo {
 .boxform4{
   margin-top: 20px;
 }
+/*Header CSS*/
 .header4{
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -146,13 +159,13 @@ img.logo {
   filter: brightness(0.25);
 
 }
-
+/*blue container*/
 .container_2 .article{
   background: #caf0eb;
   display:flex;
   padding: 5px 180px;
   justify-content: space-between;
-  background-image: url('sygnet2.png');
+  background-image: url('img/synget2-Copy.png');
   background-repeat: no-repeat;
   background-position: bottom  left 100px;
   background-size: 400px;
@@ -175,11 +188,10 @@ img.logo {
   height: 100px;
   width: 100px;
   background-color: white;
-  position: relative;
-  animation-name: rotatecircle;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  position: relative; 
 }
+.rotatingcircle img
+/*Countries CSS code*/
 .countrycards{
   zoom: 1;
   max-width: 1015px;
